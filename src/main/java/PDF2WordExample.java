@@ -48,7 +48,7 @@ public class PDF2WordExample extends HttpServlet {
 				name = result.getString("name_doc");
 			}
 			conn.close();
-			String lien = "C:\\Users\\momi\\Desktop\\wss\\testt\\src\\main\\webapp\\files\\" + name + ".docx";
+			String lien = "/deployments/ROOT/" + name + ".docx";
 			generateDocFromPDF(s, lien);
 			RequestDispatcher rd = request.getRequestDispatcher("downloadp.jsp");
 			request.setAttribute("message",
