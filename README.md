@@ -41,10 +41,12 @@ source code pas encore
      	|-------------------------|         |-------------------|
             |          client         |         |   documents       |
             |-------------------------|         |-------------------|
-		| id_client               |         | id_document       |  
-		| name                    |         | name              |
-		| email                   |         | id_client         |
-		| conversion_nbr          |         |                   |
+		| id_client               |         | id_doc            |  
+		| name_client             |         | name_doc          |
+		| email_client            |         | path_doc          |
+		| password                |         | id_client         |
+		|                         |         | type_doc          |
+		|                         |         | typ               |
 		|-------------------------|         |-------------------|
 
 ## Running The Application :
