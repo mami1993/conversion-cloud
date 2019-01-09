@@ -40,14 +40,17 @@ on a besion seulment le browser pour uploder le document et afficher le resultat
 
 ## Files Includes With This Project :
  - WEB SERVICES :
-    FileDownloadService.JAVA
-    FileUploadService.JAVA
-    EmailSend.JAVA
+
+    FileDownloadService.
+    FileUploadService.
+    EmailSend.
+    
  - SERVLET : 
-    Login.JAVA
-    Registration.JAVA
-    WordToPdf.JAVA
-    PDF2WordExample.JAVA
+ 
+    Login.
+    Registration.
+    WordToPdf.
+    PDF2WordExample.
    ### base de données :
      	|-------------------------|         |-------------------|
         |          client         |         |   documents       |
