@@ -15,7 +15,7 @@ l'ensemble des services:
   - service web send-email il s'agis denvoyer email vers le client .
   - service web download il s'agis de telecharger le document et le supprimé apres 2 min.
   - service web pour upload le document.
-  - servlet pour faire la conversion.
+  - servlets pour faire les conversions.
   
 la couche de données basé sur la base de données relationnelle qui utilise le langagee sql.
    on a utilisé cette architecture car on a pas utiliser des type de donnée complex 
