@@ -16,12 +16,14 @@ l'ensemble des services:
   - service web download il s'agis de telecharger le document et le supprimé apres 2 min.
   - service web pour upload le document.
   - servlet pour faire la conversion.
+  
 la couche de données basé sur la base de données relationnelle qui utilise le langagee sql.
    on a utilisé cette architecture car on a pas utiliser des type de donnée complex 
    La technologie est mature (création il y a plusieurs dizaines d’années) ce qui fait qu’aujourd’hui le SQL est un    langage standard et normalisé
    On a une garantie que les transactions sont atomiques, cohérentes, isolées et durables — principe ACID (Atomic,    Consistent, Independant, Durable)
    La possibilité de mettre en œuvre des requêtes complexes (croisement multiple des données)
    Du fait du nombres d’années d’existence, un large support est disponible et il existe également de fortes          communautés.
+   
 la maniere de gestion des demandes des clients basé sur les thread , c'est pour Un usage plus efficace du processeur
 ,Un système plus fiable et Des performances améliorées sur les multiprocesseurs. et tant que nous somme dans le cloud
 et notre resources est limité donc les threads c'est une bonne solution pour la gestion des demandes.
