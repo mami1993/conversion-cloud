@@ -39,7 +39,15 @@ tant que nous somme dans le cloud et cette application est comme 'SAAS' donc ona
 on a besion seulment le browser pour uploder le document et afficher le resultat.
 
 ## Files Includes With This Project :
-source code pas encore 
+ - WEB SERVICES :
+    FileDownloadService.JAVA
+    FileUploadService.JAVA
+    EmailSend.JAVA
+ - SERVLET : 
+    Login.JAVA
+    Registration.JAVA
+    WordToPdf.JAVA
+    PDF2WordExample.JAVA
    ### base de données :
      	|-------------------------|         |-------------------|
             |          client         |         |   documents       |
