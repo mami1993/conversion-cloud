@@ -8,14 +8,12 @@ vous avez besoin d'un browser et la connection a l'internet pour lancé ce progr
 
 ## Application Architecture :
 
-cette application est basé sur une collection de web services pour les conversions , permet de mettre les données à la
+cette application est basé sur une collection de web services et servlets pour les conversions , permet de mettre les données à la
 disposition d'utilisateurs qui n'ont pas forcément un accès direct aux données , rendez l'application accessible via une 
 multitude d'applications exécutées sur des ordinateurs de bureau, des tablettes PC et des smartphones. 
-l'ensemble des services : 
-  - service web de conversion il s'agis de converter le document.
-  - service web authentication il s'agis de validé le client .
+l'ensemble des services:
   - service web send-email il s'agis denvoyer email vers le client .
-  - service web download il s'agis de telecharger le document et le supprimé apres 5 min.
+  - service web download il s'agis de telecharger le document et le supprimé apres 2 min.
   - service web pour upload le document.
 
 la couche de données basé sur la base de données relationnelle qui utilise le langagee sql.
@@ -51,7 +49,7 @@ source code pas encore
 
 ## Running The Application :
 
-ouvrir le browser , tapez ce URL ( pas encore ) ,  uploder le document et voila  le resultat. 
+ouvrir le browser , tapez ce URL ( pas encore ) ,  uploder le document , converter et voila  le resultat. 
 
 ## Deployment :
 
@@ -62,10 +60,13 @@ du compte de repository de GITHUB pour importer les classes pour les exécutées
 
 ## Built With :
 
- - Java EE
- - Oracle database
+ - Java EE :
+   La plate-forme étend Java Platform, Standard Edition (Java SE) en fournissant une API de mapping objet-            relationnel, des architectures distribuées et multitiers, et des services web3. La plate-forme se fonde            principalement sur des composants modulaires exécutés sur un serveur d'applications.
+ - MYSQL database
+    est un système de gestion de bases de données relationnelles (SGBDR). Il est distribué sous une double licence     GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde3,       autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec       Oracle, PostgreSQL et Microsoft SQL Server.
+    Son nom vient du prénom de la fille du cocréateur Michael Widenius, My. SQL fait référence au Structured Query     Language, le langage de requête utilisé.
  - Openshift platform 
-
+    OpenShift is a family of containerization software developed by Red Hat. Its flagship product is the OpenShift     Container Platform—an on-premises platform as a service built around Docker containers orchestrated and managed     by Kubernetes on a foundation of Red Hat Enterprise Linux. The family's other products provide said platform       through different environments: OKD serves as the community-driven upstream (akin to CentOS), OpenShift Online     is the platform offered as software as a service, Openshift Dedicated is the platform offered as a managed         service, and OpenShift.io is an application development environment for the platform available online.
 ## Authors :
 
  - Bouchelouche Mohamed 
