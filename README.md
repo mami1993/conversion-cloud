@@ -52,8 +52,8 @@ on a besion seulment le browser pour uploder le document et afficher le resultat
   
    ### base de données :
      	|-------------------------|         |-------------------|
-        |          client         |         |   documents       |
-        |-------------------------|         |-------------------|
+            |          client         |         |   documents       |
+            |-------------------------|         |-------------------|
 		| id_client               |         | id_doc            |  
 		| name_client             |         | name_doc          |
 		| email_client            |         | path_doc          |
