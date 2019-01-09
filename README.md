@@ -39,18 +39,17 @@ tant que nous somme dans le cloud et cette application est comme 'SAAS' donc ona
 on a besion seulment le browser pour uploder le document et afficher le resultat.
 
 ## Files Includes With This Project :
- - WEB SERVICES :
-
-    FileDownloadService.
-    FileUploadService.
-    EmailSend.
+ # WEB SERVICES :
+   - FileDownloadService.
+   - FileUploadService.
+   - EmailSend.
     
- - SERVLET : 
- 
-    Login.
-    Registration.
-    WordToPdf.
-    PDF2WordExample.
+ # SERVLET : 
+  - Login.
+  - Registration.
+  - WordToPdf.
+  - PDF2WordExample.
+  
    ### base de données :
      	|-------------------------|         |-------------------|
         |          client         |         |   documents       |
