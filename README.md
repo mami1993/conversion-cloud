@@ -64,7 +64,7 @@ on a besion seulment le browser pour uploder le document et afficher le resultat
 
 ## Running The Application :
 
-ouvrir le browser , tapez ce URL ( http://jws-app-cloud.a3c1.starter-us-west-1.openshiftapps.com/ ) ,  uploder le document , converter et voila  le resultat. 
+ouvrir le browser , tapez ce URL ( http://jws-app-clo-con.1d35.starter-us-east-1.openshiftapps.com/ ) ,  uploder le document , converter et voila  le resultat. 
 
 ## Deployment :
 
