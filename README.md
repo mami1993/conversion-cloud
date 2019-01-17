@@ -71,7 +71,7 @@ ouvrir le browser , tapez ce URL ( http://jws-app-clo-con.1d35.starter-us-east-1
 pour deploy cette application créer compte sur le GITHUB , créer  compte sur openshift 
 ajouter les classes dans le repository dans le compte de GITHUB 
 pendant la preparation des programmes d'environment de programation dans openshift ajouter le lien
-du compte de repository de GITHUB pour importer les classes pour les exécutées , ajouter la base de données  
+du compte de repository de GITHUB pour importer les classes pour les exécutées , ajouter la base de données dans mysql-app POD .     
 
 ## Built With :
 
