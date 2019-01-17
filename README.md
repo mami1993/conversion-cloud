@@ -1,6 +1,6 @@
 ## Project Name: 
 
-application de conversion de documents sous le cloud (SAAS).
+application de conversion des documents sous le cloud (SAAS).
 
 ## Prerequisites :
 
@@ -35,7 +35,7 @@ cette application permet de cenverter les documents de types pdf vers word et l'
 
 ## Installing :
 
-tant que nous somme dans le cloud et cette application est comme 'SAAS' donc ona pas besoin d'installé aucun chose 
+tant que nous somme dans le cloud et cette application est comme (SAAS) donc ona pas besoin d'installé aucun chose 
 on a besion seulment le browser pour uploder le document et afficher le resultat.
 
 ## Files Includes With This Project :
